@@ -1,3 +1,3 @@
 <?php
-require_once ("../configuracion.php");
+require_once( ".." . DIRECTORY_SEPARATOR . "configuracion.php");
 ?>
