@@ -1,0 +1,7 @@
+<?xml version='1.0' standalone='yes'?>
+<config>
+	<db_server>localhost</db_server>
+	<db_usuario>zsamer</db_usuario>
+	<db_password>zsamer</db_password>
+	<db_base>zsamer</db_base>
+</config>
