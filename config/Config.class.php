@@ -151,8 +151,8 @@ class Config{
     private function configXml($file){
 
         if(file_exists($this->ConfigPath.$file)){
-            $parseIniArray = simplexml_load_file($this->ConfigPath.$file);           
-            $this->createConfig($parseIniArray);
+            $parseXmlArray = simplexml_load_file($this->ConfigPath.$file);           
+            $this->createConfig($parseXmlArray);
             return true;
         } else {
             throw new Exception('No existe el archivo de configuraci&oacute;n '.$file.' en el configPath');
